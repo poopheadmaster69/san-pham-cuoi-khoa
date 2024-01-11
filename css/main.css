@@ -1,20 +1,18 @@
 * {
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
+    
   }
-.header {
-  display: flex;
-  position: sticky;
-
-   
- 
+.search{
+  
 }
+
 
 .product-list {
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 50px;
 }
 
 
