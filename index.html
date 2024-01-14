@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
   </head>
   <body>
     <div class="navigation">
       <div class="navigation-bar">
         <div class="place1">
-          <p class="phone-number">☏ 0888 667 586</p>
-          <p class="location">📍 Xem vị trí cửa hàng</p>
+          <p class="phone-number" style="color: white">☏ 0888 667 586</p>
+          <p class="location" style="color: white">📍 Xem vị trí cửa hàng</p>
         </div>
         <div class="place2">
-          <p class="text">
-            CGVfishing Xin kính chào Qúy Khách, Qúy Khách cần tư vấn về đồ câu
+          <marquee behavior="" direction="left" style="color: white"
+            >CGVfishing Xin kính chào Qúy Khách, Qúy Khách cần tư vấn về đồ câu
             xin vui lòng liên hệ ngay Hotline 0888667586.
-          </p>
+          </marquee>
         </div>
       </div>
       <div class="navigation-bar2">
@@ -29,13 +33,68 @@
 
         <input type="text" placeholder="Search.." class="searchs" />
       </div>
+
+      <div class="navi2">
+        <a href="index.html" style="text-decoration: none;">Trang Chủ</a>
+      </div>
     </div>
-      
-      <h1>Products</h1>
+
+    <div class="owl-carousel">
+      <div>
+        <img
+          src="https://lh3.googleusercontent.com/-z0EtyA60h_c/ZWREOgO5FcI/AAAAAAAAAC0/8O5s779qljMU6dmCG9SQHSyuH_UL2hQGwCNcBGAsYHQ/s0/2.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://lh3.googleusercontent.com/-z0EtyA60h_c/ZWREOgO5FcI/AAAAAAAAAC0/8O5s779qljMU6dmCG9SQHSyuH_UL2hQGwCNcBGAsYHQ/s0/2.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://lh3.googleusercontent.com/-z0EtyA60h_c/ZWREOgO5FcI/AAAAAAAAAC0/8O5s779qljMU6dmCG9SQHSyuH_UL2hQGwCNcBGAsYHQ/s0/2.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://lh3.googleusercontent.com/-z0EtyA60h_c/ZWREOgO5FcI/AAAAAAAAAC0/8O5s779qljMU6dmCG9SQHSyuH_UL2hQGwCNcBGAsYHQ/s0/2.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://lh3.googleusercontent.com/-z0EtyA60h_c/ZWREOgO5FcI/AAAAAAAAAC0/8O5s779qljMU6dmCG9SQHSyuH_UL2hQGwCNcBGAsYHQ/s0/2.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://lh3.googleusercontent.com/-z0EtyA60h_c/ZWREOgO5FcI/AAAAAAAAAC0/8O5s779qljMU6dmCG9SQHSyuH_UL2hQGwCNcBGAsYHQ/s0/2.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://lh3.googleusercontent.com/-z0EtyA60h_c/ZWREOgO5FcI/AAAAAAAAAC0/8O5s779qljMU6dmCG9SQHSyuH_UL2hQGwCNcBGAsYHQ/s0/2.png"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <h1>Products</h1>
     <div class="product-list" id="product-list">
       <template id="product-template">
         <div class="card">
-          <img id="product-image" class="card-img-top" style="width: 50%; height: 50%;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmaq-lt5mNBSTNDudVLxDqezTiI201lGP4fNscadVcOoab2lKwNjvorcdBQz-cLpwNlPztJIZJoHjsZyy7lcY3_D_5SZ1gPKFnifZCyaCKwFMX1lFGedfuwUCBXQNU8Na_LMnoJV6Ztq8hVU-oiBAVsNsno0m5pguTAdiJk1EAjRSUAj_EzMEC8GkjaM8z/s16000/3.png" alt="Card image cap">
+          <img
+            id="product-image"
+            class="card-img-top"
+            style="width: 50%; height: 50%"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmaq-lt5mNBSTNDudVLxDqezTiI201lGP4fNscadVcOoab2lKwNjvorcdBQz-cLpwNlPztJIZJoHjsZyy7lcY3_D_5SZ1gPKFnifZCyaCKwFMX1lFGedfuwUCBXQNU8Na_LMnoJV6Ztq8hVU-oiBAVsNsno0m5pguTAdiJk1EAjRSUAj_EzMEC8GkjaM8z/s16000/3.png"
+            alt="Card image cap"
+          />
           <div class="card-body">
             <h5 class="card-title" id="product-name">day cau</h5>
             <p class="card-text" id="product-price">2000</p>
@@ -45,11 +104,64 @@
         </div>
       </template>
     </div>
-    
- <div class="footer">
-  
- </div>
+
+    <div class="footer">
+      <div class="ini">
+        <div class="facebook">
+          <div class="facebook2">
+            <img
+              src="https://scontent.xx.fbcdn.net/v/t39.30808-1/404326884_368929522179681_6624615906968966399_n.jpg?stp=cp0_dst-jpg_p50x50&_nc_cat=109&ccb=1-7&_nc_sid=4da83f&_nc_ohc=visQEpGaNPsAX-QiwUd&_nc_ht=scontent.xx&edm=APQiy74EAAAA&oh=00_AfDLc8L1NLdu7HazELfv4XhuWkzApIYCq0C1mcCsB3vIww&oe=65A92FED"
+              alt=""
+              style="margin-top: 20px"
+            />
+          </div>
+          <div class="facebook3">
+            <h3 style="color: white">FACEBOOK</h3>
+            <a
+              href="https://www.facebook.com/profile.php?id=100071879080568&ref=embed_page"
+              style="color: white; text-decoration: none"
+              >CGV Fishing đồ câu chính hãng</a
+            >
+          </div>
+        </div>
+      </div>
+      <marquee behavior="''" direction="left" style="color: white"
+        >Hotline : 0888667586 Địa chỉ:Số nhà 5 ngõ 21 Bùi Bằng Đoàn, Nguyễn
+        Trãi, Hà Đông, TP Hà Nội</marquee
+      >
+    </div>
 
     <script src="js/main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 6000,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 1,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
