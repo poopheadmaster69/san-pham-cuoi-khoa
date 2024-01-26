@@ -44,6 +44,8 @@ position: sticky;
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
+  background-color: #F2F2F2;
+  padding-left: 150px;
 }
 
 .footer{
@@ -62,5 +64,31 @@ position: sticky;
   display: flex;
   gap: 10px;
 }
+
+.navi2{
+  display: flex;
+  padding-left: 15%;
+  gap: 10%;
+  padding-bottom: 5%;
+  
+}
+.card{
+  width: 200px;
+  border: 1px solid;
+  height: 290px;
+  background-color: white;
+  border-radius: 7px;
+  
+}
+
+.add :hover{
+  background-color: #00587A;
+  
+}
+
+.btn-primary :hover{
+  color: #F2F2F2;
+}
+
 
 

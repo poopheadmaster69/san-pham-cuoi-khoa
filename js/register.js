@@ -43,7 +43,7 @@ function handleRegister () {
   emailElm.value = "";
   passwordElm.value = "";
   alert("Dang ky thanh cong!")
-  window.location = "./login.html";
+  // window.location = "./login.html";
 }
 
 submitBtn.addEventListener("click", handleRegister);

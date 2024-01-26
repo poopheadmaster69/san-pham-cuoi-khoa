@@ -21,7 +21,7 @@ function handleLogin() {
     const element = users[index];
     if(element.email === email && element.password === password) {
       alert("Dang nhap thanh cong!");
-      window.location = './index.html'
+      // window.location = './index.html'
       return;
     }
   }
