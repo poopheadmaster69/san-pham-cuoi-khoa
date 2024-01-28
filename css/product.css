@@ -3839,21 +3839,41 @@
   .swatch.error code {
       font-family: monospace
   }
-  .navigation-bar{
-    display: flex;
-    background-color: #0F3057;
+
+  .btn-primary :hover{
+    color: #F2F2F2;
   }
-  .navigation-bar2{
-    width: 100%;
-    height: 30%;
-    display: flex;
-    gap: 20px;
-    
+  
+  
+  
+  .btn1 {
+    background-color:#0F3057; 
+    color: black; 
+    border: 2px solid #04AA6D;
   }
-  .searchs{
-    width: 70%;
-    height: 10%;
-    margin-top: 10%;
+  
+  .btn1:hover {
+    background-color: #73D1EC;
+    color: white;
+  }
+  .select { 
+    padding: 10px;
+    border: solid white;
+    outline: none;
+   font-size: 15px;
+   transition: 150ms;
+  }
+  
+  .btn2{
+    font-size:15px ;
+    padding-top: 14px;
+  }
+  
+  .select-menu{
+    transition: 150ms;
+    background-color: white;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0 ,0 ,0 .1);
   }
   .navi2{
     display: flex;
@@ -3862,3 +3882,38 @@
     padding-bottom: 5%;
     
   }
+  .searchs{
+    width: 70%;
+    height: 10%;
+    margin-top: 10%;
+    padding: 10px;
+  }
+  
+  .logo{
+    width: 20%;
+    height: 100%;
+  }
+  .navigation-bar2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    gap: 20px;
+    
+  }
+  .navigation{
+    width: 100%;
+    height: 30%;
+    position: sticky;
+    
+    }
+    .navigation-bar{
+      display: flex;
+      background-color: #0F3057;
+    }
+    .phone-number{
+      text-align: left;
+    }
+    .location{
+      text-align: left;
+    }
+  
